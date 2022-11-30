@@ -55,6 +55,7 @@ class ImageCropping {
       OutputImageFormat outputImageFormat = OutputImageFormat.jpg,
       Key? key}) {
     /// Here, we are pushing a image cropping2 screen.
+    print("context: $context");
     return Navigator.of(context, rootNavigator: rootNavigator).push(
       MaterialPageRoute(
         builder: (_context) => ImageCroppingScreen(
